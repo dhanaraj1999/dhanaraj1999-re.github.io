@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<a href="index.html" class="btn top-left">Back to Home</a>
+<style>
+    .btn{
+    padding: 10px 20px;
+    border: 0;
+    background: yellow;
+    font-weight: bold;
+    cursor: pointer;
+}
+    .top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 10px;
+  font-family: sans-serif;
+  font-weight: bold ;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(161, 14, 219, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+  .btn{
+      min-width: 50px;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Me</h1>
+  <p>Hello Im Dhanaraj!!</p>
+  <p>From Temple Town Udupi,karnataka.Interested in Vlog-Making,Photography &Coding</p>
+</div>
+
+<h2 style="text-align:center">More</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="computer.jpg" alt="Jane" height="150px" width="100%">
+      <div class="container">
+        <h2>Graduation</h2>
+        <p class="title">BE in Computer Science</p>
+        <p>Im pursuing BE in Computer Science In 
+            Shri Madhwa Vadiraja institute Of Technology and Management
+             @Bantakal </p>
+        <p>2017-2021.</p>
+        <p><button class="button"></button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="FaceApp_1591773905789.jpg" alt="Mike" height="230px" width="100%" >
+      <div class="container">
+        <h2>Photography</h2>
+        <p class="title">Editing</p>
+        <p> Interested in Photography,Video Editing & Making .</p>
+        <p>Youtube and Content making</p>
+        <button class="button"></button></p>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="laptop-coding.png" alt="John" height="190px" width="50%">
+      <div class="container">
+        <h2>Developer & Little-Mentor</h2>
+        <p class="title">Application Maker</p>
+        <p>Web Developer and making Mini-Projects</p>
+        <p>Arudino,Raspberry pi Trainer @ ATL</p>
+        <p><button class="button"></button></p>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="ft">
+    &copy; 
+        <large>Copyright 2020 All Rights Reserved</large>
+</footer>
+
+</body>
+</html>
