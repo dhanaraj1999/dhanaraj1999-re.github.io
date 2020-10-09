@@ -34,7 +34,7 @@
 .nav-links ul a{
     color:#fff;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 26px;
 }
 .nav-links ul li::after{
     content: '';
@@ -157,4 +157,5 @@
 }
 .ft{
     color: black;
+    text-align:center;
 }
